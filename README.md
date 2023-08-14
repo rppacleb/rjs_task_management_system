@@ -8,7 +8,7 @@ To run this application on your local machine, follow these steps:
 
 1. **Clone the Repository:**
 
-Copy the repository link to get starte
+Copy the repository link to get started.
 
 2. **Navigate to the Project Directory:**
 
