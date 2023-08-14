@@ -1,0 +1,24 @@
+# React App with Material-UI and Framer Motion
+This is a React application built using Create React App, Material-UI, and Framer Motion.
+
+## Installation
+To run this application on your local machine, follow these steps:
+
+1. **Clone the Repository:**
+Copy the repository link to get started.
+
+2. **Navigate to the Project Directory:**
+Create your local directory or use the default name of git repository when clone.
+
+3. **Install Dependencies:**
+Using npm install. This will install the required dependencies including React, Material-UI, and Framer Motion.
+
+4. **Start the Development Server:**
+Use npm start. This command will start the development server and open the app in your default web browser.
+
+## About
+This application demonstrates the usage of React JS, Create React App (CRA), Material-UI, and Framer Motion for creating interactive and visually appealing user interfaces.
+
+## Usage
+- Explore the app's features and UI components.
+- Refer to the documentation of React, Material-UI, and Framer Motion for more information and examples.
