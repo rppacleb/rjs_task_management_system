@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/icons/logo1.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="description" content="Streamline productivity with our advanced Task Management system. Organize, prioritize, and collaborate seamlessly on tasks to boost efficiency and achieve your goals. Try it now and experience a new level of team coordination and personal productivity." />
+		<link rel="apple-touch-icon" href="%PUBLIC_URL%/icons/logo1.png" />
+		<link rel="manifest" crossorigin="use-credentials" href="%PUBLIC_URL%/manifest.json" />
+		<title>Task Management</title>
+
+		<script>
+			if('serviceWorker' in navigator){
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register(`%PUBLIC_URL%/sw.js`).then((reg) => console.log('sw registered')).catch((err) => console.log('sw not registered'))
+				})
+			}
+		</script>
+		<div id="fb-root"></div>
+		<script type="text/javascript">       
+            (
+				function(w,d,v3){
+					w.chaportConfig = {
+						appId : '5f0d6356503eb87c61d5a978',
+						operators: ['abquioyo@sjcgroup.ph'],
+						appearance: {
+							position: ['left', -4, 56],
+							windowColor: 'green'
+						},
+						launcher: {
+							show: false
+						}
+					};
+					if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push(arguments)};v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://app.chaport.com/javascripts/insert.js';var ss=d.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s,ss)
+				}
+			)(window, document);   
+		</script>
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+		<% if (process.env.REACT_APP_ENV === 'prod') { %>
+			<script src="https://www.paypal.com/sdk/js?client-id=AQkVYfVuFEHmkRdr8kO1gaSUWUq4jIxURhcw-RMebVd4khIfJ12GczK4i2cy4B-Qzh0dAcqKzGGDhsUR&currency=PHP&disable-funding=credit,card&vault=true"></script>
+		<% } else { %>
+			<script src="https://www.paypal.com/sdk/js?client-id=AZdXM4NVW7p1UtAeBqC5x4IrJPCP3-Tim0WpWseNuMSpjNd3abNNXS5Aq2_63cFK3JGboJIIoDUwc3Ne&currency=PHP&disable-funding=credit,card&vault=true"></script>
+		<% } %>
+	</body>
+</html>

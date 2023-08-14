@@ -1,0 +1,20 @@
+{
+	"theme_color": "#00B451",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"scope": ".",
+	"start_url": "/",
+	"name": "POFProject",
+	"short_name": "PRJ",
+	"icons": [
+		{
+			"src": "/icons/logo1.png",
+			"sizes": "152x152",
+			"type": "image/png"
+		}
+	],
+	"screenshots": [
+		{"src": "/icons/logo1.png", "sizes": "152x152", "type": "image/png"}
+	],
+	"description": "Streamline productivity with our advanced Task Management system. Organize, prioritize, and collaborate seamlessly on tasks to boost efficiency and achieve your goals. Try it now and experience a new level of team coordination and personal productivity."
+}
