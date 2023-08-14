@@ -1,4 +1,4 @@
-import { Box, Button, Divider, IconButton, InputAdornment, TextField, useMediaQuery } from "@mui/material"
+import { Box, Button, IconButton, InputAdornment, TextField, useMediaQuery } from "@mui/material"
 import { MailOutline as IMailOutline, RemoveRedEyeOutlined as IRemoveRedEye , VisibilityOffOutlined as IVisibilityOff} from "@mui/icons-material";
 import { avatarstylesx, tfsx } from "../../../core/styles/global";
 import { useContext } from "react";
@@ -30,6 +30,8 @@ export const Verification = ({ match }) => {
                 password: {value: '', stat: false, msg: '', disabled: false},
             }
         })
+
+		// eslint-disable-next-line react-hooks/exhaustive-deps
     }, [type])
 
     const redirectHandler = () => {

@@ -74,7 +74,7 @@ export const tf = (v) => {
                 marginTop: -3.8,
             },
             '& .MuiOutlinedInput-root': {
-                borderRadius: '6px',
+                // borderRadius: '6px',
                 bgcolor: '#fff',
                 height: 45,
                 backgroundColor: '#D3E7F6',
@@ -116,7 +116,7 @@ export const tfsx = (v="tf") => {
             marginTop: -0.4,
         },
         '& .MuiOutlinedInput-root': {
-            borderRadius: '6px',
+            // borderRadius: '6px',
             bgcolor: '#fff',
             height: v === 'tf' ? '45px' : 'auto',
             borderRadius: 2

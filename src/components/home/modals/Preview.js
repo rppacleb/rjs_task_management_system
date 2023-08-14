@@ -1,9 +1,7 @@
 import * as React from "react"
-import { Box, Button, Dialog, Divider, Grid, Slide, drawerClasses } from "@mui/material";
+import { Box, Button, Dialog, Divider, Grid, Slide } from "@mui/material";
 import { FileFill1 } from "../../../core/Icons";
-import { avatarstylesx } from "../../../core/styles/global";
 import { validateFileSize } from "../../../core/validator/Validator";
-import { saveAs } from 'file-saver'
 import { Close, DeleteOutline, Edit } from "@mui/icons-material";
 import LimitText from "react-show-more-text"
 import moment from "moment";

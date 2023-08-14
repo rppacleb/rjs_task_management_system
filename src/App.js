@@ -22,7 +22,10 @@ export const App = () => {
 			prefetch.set(true)
 		}, 500);
 
-		console.log(`TO-DO LIST V1.0.1 is running`);
+		if (window.location.pathname === '/' && __LOCALSESSION !== null) {
+			window.location.href = '/tasks/all'
+		}
+		console.log(`TO-DO LIST V1.0.2 is running`);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [])
 
